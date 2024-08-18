@@ -14,8 +14,69 @@
          integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
          crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="shortcut icon" href="Images/favicon.png" type="image/x-icon">
+    <style>
+        .manrope {
+            font-family: 'Manrope', sans-serif;
+        }
+
+        .bgimage {
+            background-image: url('./Images/mb/Rectangle14.png');
+            background-position: center;
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+        
+        .sociallinks a:hover{
+            color: #FF4240;
+            transition: all .3s ease-in-out;
+        }
+    </style>
 </head>
-<body>
-    
+<body class="manrope ">
+    <!-- header starts -->
+    <header class="lg:max-w-[73.125rem] max-w-[98%] mx-auto lg:mx-auto  py-4">
+        <!-- full nav starts -->
+        <nav>
+            <div class="navbar bg-base-100">
+                <div class="navbar-start">
+                    <div class="dropdown">
+                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 6h16M4 12h8m-8 6h16" />
+                            </svg>
+                        </div>
+                        <ul tabindex="0"
+                            class="font-bold menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                            <li class="text-[#FF4240] "><a>Home</a></li>
+                            <li><a>About</a></li>
+                            <li><a>Pages</a></li>
+                            <li><a>Blog</a></li>
+                            <li><a>Contact</a></li>
+                        </ul>
+                    </div>
+                    <a class="btn btn-ghost text-xl font-extrabold">Hockey<span
+                            class="text-[#FF4240] contents">'</span>s</a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                    <ul class="p-2 font-bold menu menu-horizontal px-1">
+                        <li class="text-[#FF4240] "><a>Home</a></li>
+                        <li><a>About</a></li>
+                        <li><a>Pages</a></li>
+                        <li><a>Blog</a></li>
+                        <li><a>Contact</a></li>
+                    </ul>
+                </div>
+                <div class="navbar-end">
+                    <a class="" href=""><i
+                            class="fa-solid fa-magnifying-glass text-gray-500 lg:flex hidden p-6 lg:hover:text-[#FF4240] lg:duration-300"></i></a>
+                    <a class="btn lg:hover:bg-white lg:hover:text-[#FF4240] font-bold text-white bg-[#FF4240]">Get Ticket</a>
+                </div>
+            </div>
+        </nav>
+        <!-- full nav ends-->
+    </header>
+    <!-- header ends -->
 </body>
 </html>
